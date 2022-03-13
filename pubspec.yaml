@@ -18,12 +18,18 @@ dependencies:
 
   retry: ^3.1.0
   dio: ^4.0.4
+  dio_cache_interceptor: ^3.2.6
+
   dartz: ^0.10.1
 
   auto_route: ^3.2.4
 
   flutter_bloc: ^8.0.1
   bloc: ^8.0.3
+
+  equatable: ^2.0.3
+
+  logger: ^1.1.0
 
   # ServiceLocator
   get_it: ^7.2.0
@@ -37,7 +43,6 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^1.0.4
-  logger: 1.1.0
   json_serializable: ^6.1.5
   build_runner: 2.1.7
   hive_generator:
