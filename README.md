@@ -26,10 +26,12 @@ All optional features completed.
 
 Notes for some future improvements:
 
-1. Create pagination (either through backend, or handle to mechanism ) for eventList (currently getting 25 items only)
+1. Create pagination for eventList (currently getting 25 items only)
 2. Use caching for apis
 3. Add networkUtils to check internet connection before performing api call in repo
 4. More error checking in terms of empty models
 5. Create deeplink Handling
 6. Widget Testing
+7. Move Strings into a localisation file or create constants
+8. Create constant file for Colors
 
