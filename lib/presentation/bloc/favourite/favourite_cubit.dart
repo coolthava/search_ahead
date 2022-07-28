@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:search_ahead/core/repository/favourite_repository/i_favourite_repository.dart';
+import 'package:search_ahead/core/repository/favourite/i_favourite_repository.dart';
 import 'package:search_ahead/presentation/bloc/favourite/favourite_state.dart';
 
 class FavouriteCubit extends Cubit<FavouriteState> {

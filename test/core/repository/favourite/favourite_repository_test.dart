@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:search_ahead/core/repository/favourite_repository/favourite_repository.dart';
+import 'package:search_ahead/core/repository/favourite/favourite_repository.dart';
 
 import '../../../shared_mocks.mocks.dart';
 

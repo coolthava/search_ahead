@@ -12,7 +12,7 @@ import 'package:search_ahead/core/api/seatgeek/model/event_response.dart'
 import 'package:search_ahead/core/common/utils/localstorage/i_local_storage.dart'
     as _i6;
 import 'package:search_ahead/core/model/home/event.dart' as _i4;
-import 'package:search_ahead/core/repository/favourite_repository/i_favourite_repository.dart'
+import 'package:search_ahead/core/repository/favourite/i_favourite_repository.dart'
     as _i5;
 import 'package:search_ahead/core/repository/search/i_search_repository.dart'
     as _i8;

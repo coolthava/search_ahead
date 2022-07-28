@@ -10,15 +10,19 @@ A new Flutter project.
 
 # Descriptions
 
+State Management: flutter_bloc and get_it
+
+Architecture: MVVM-C
+
+Navigation: auto_route (using Navigator 2.0)
+
 Features:
 
     Home -> To allow user to search for events
 
     Details -> To show users event details and favourite them
 
-All optional features completed. 
-
-
+All optional features completed.
 
 Notes for some future improvements:
 

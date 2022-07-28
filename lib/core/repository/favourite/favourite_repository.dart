@@ -1,5 +1,5 @@
 import 'package:search_ahead/core/common/utils/localstorage/i_local_storage.dart';
-import 'package:search_ahead/core/repository/favourite_repository/i_favourite_repository.dart';
+import 'package:search_ahead/core/repository/favourite/i_favourite_repository.dart';
 
 class FavouriteRepository extends IFavouriteRepository {
   final ILocalStorage _localStorage;

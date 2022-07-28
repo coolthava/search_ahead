@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:search_ahead/core/repository/favourite_repository/i_favourite_repository.dart';
+import 'package:search_ahead/core/repository/favourite/i_favourite_repository.dart';
 import 'package:search_ahead/core/repository/search/i_search_repository.dart';
 import 'package:search_ahead/presentation/bloc/home/home_state.dart';
 
