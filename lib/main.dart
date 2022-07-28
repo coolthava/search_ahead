@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -10,7 +8,7 @@ import 'package:search_ahead/core/router/router.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  configureServiceLocator(Platform.isIOS);
+  configureServiceLocator();
 
   runApp(const MyApp());
 }
@@ -27,7 +25,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void didChangeDependencies() async {
-    // await configureServiceLocator(Platform.isIOS);
     _routerDelegate = AutoRouterDelegate(
       sl.get<MyRouter>(),
     );

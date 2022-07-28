@@ -23,7 +23,7 @@ import 'package:search_ahead/presentation/bloc/home/home_cubit.dart';
 
 var sl = GetIt.instance;
 
-Future<void> configureServiceLocator(bool isIos) async {
+Future<void> configureServiceLocator() async {
   sl.registerSingleton<MyRouter>(MyRouter());
 
   sl.registerSingleton<ILogger>(BaseLogger(Logger(
