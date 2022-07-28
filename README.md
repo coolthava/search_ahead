@@ -24,7 +24,7 @@ Features:
 
 All optional features completed.
 
-Notes for some future improvements:
+# Notes for some future improvements:
 
 1. Create pagination for eventList (currently getting 25 items only)
 2. Use caching for apis
