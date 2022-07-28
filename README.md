@@ -8,7 +8,7 @@ A new Flutter project.
 
 2) Choose desired mobile emulator or macos and then click run.
 
-# Descriptions
+## Descriptions
 
 State Management: flutter_bloc and get_it
 
@@ -24,7 +24,7 @@ Features:
 
 All optional features completed.
 
-# Notes for some future improvements:
+## Notes for some future improvements:
 
 1. Create pagination for eventList (currently getting 25 items only)
 2. Use caching for apis
