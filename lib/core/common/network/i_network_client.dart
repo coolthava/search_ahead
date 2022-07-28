@@ -1,5 +1,5 @@
-import 'package:base_flutter_mvvm_bloc/core/common/network/http_response.dart';
-import 'package:base_flutter_mvvm_bloc/core/common/network/options.dart';
+import 'package:search_ahead/core/common/network/http_response.dart';
+import 'package:search_ahead/core/common/network/options.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 
 abstract class INetworkClient {

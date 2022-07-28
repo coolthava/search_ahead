@@ -1,5 +1,5 @@
-import 'package:base_flutter_mvvm_bloc/core/common/network/exception/api_exception.dart';
 import 'package:equatable/equatable.dart';
+import 'package:search_ahead/core/common/network/exception/api_exception.dart';
 
 class BaseException extends Equatable implements Exception {
   @override
@@ -11,41 +11,6 @@ class NetworkException extends BaseException {
   String toString() {
     return 'Check your network';
   }
-}
-
-class ServerException extends BaseException {
-  final dynamic _error;
-  ServerException(this._error);
-
-  @override
-  String toString() {
-    return _error.toString();
-  }
-
-  @override
-  List<Object?> get props => [_error];
-}
-
-class ApiDowntimeException extends BaseException {
-  final dynamic response;
-
-  ApiDowntimeException(this.response);
-
-  @override
-  List<Object> get props => [response];
-}
-
-class CacheException extends BaseException {}
-
-class UnknownException extends BaseException {}
-
-class UnauthorizedException extends BaseException {
-  final dynamic response;
-
-  UnauthorizedException(this.response);
-
-  @override
-  List<Object> get props => [response];
 }
 
 class HttpException extends BaseException {
@@ -73,39 +38,4 @@ class HttpException extends BaseException {
 
   @override
   List<Object?> get props => [response, errorMsg, errorCode, apiException];
-}
-
-class UserDataNotFoundException extends BaseException {}
-
-class ParsingException extends BaseException {}
-
-class EmptyUserOrProductException extends BaseException {}
-
-class BroadbandUnsupportedAddressException extends BaseException {}
-
-class ExpiredLeadTokenException extends BaseException {
-  final dynamic response;
-
-  ExpiredLeadTokenException(this.response);
-
-  @override
-  List<Object> get props => [response];
-}
-
-class FetchLocalUserDataException extends BaseException {}
-
-class InvalidBroadbandEligibleType extends BaseException {}
-
-class InvalidMeshQuantityException extends BaseException {
-  @override
-  String toString() {
-    return 'Please check mesh quantity. It should atleast 1.';
-  }
-}
-
-class LeadTokenMissingException extends BaseException {
-  @override
-  String toString() {
-    return 'Lead token not found.';
-  }
 }

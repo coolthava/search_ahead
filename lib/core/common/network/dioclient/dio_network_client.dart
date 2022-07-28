@@ -1,7 +1,7 @@
-import 'package:base_flutter_mvvm_bloc/core/common/error/exception.dart';
-import 'package:base_flutter_mvvm_bloc/core/common/network/http_response.dart';
-import 'package:base_flutter_mvvm_bloc/core/common/network/i_network_client.dart';
-import 'package:base_flutter_mvvm_bloc/core/common/network/options.dart';
+import 'package:search_ahead/core/common/error/exception.dart';
+import 'package:search_ahead/core/common/network/http_response.dart';
+import 'package:search_ahead/core/common/network/i_network_client.dart';
+import 'package:search_ahead/core/common/network/options.dart';
 import 'package:dio/dio.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
 

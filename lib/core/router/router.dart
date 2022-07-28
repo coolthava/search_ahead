@@ -1,6 +1,7 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:base_flutter_mvvm_bloc/presentation/widget/home/home_page.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:search_ahead/presentation/widget/eventdetails/event_detail_page.dart';
+import 'package:search_ahead/presentation/widget/home/home_page.dart';
 
 part 'router.gr.dart';
 
@@ -10,6 +11,9 @@ part 'router.gr.dart';
       initial: true,
       page: MyHomePage,
     ),
+    AutoRoute<bool>(
+      page: EventDetailPage,
+    )
   ],
 )
 class MyRouter extends _$MyRouter {}

@@ -1,4 +1,4 @@
-package com.example.base_flutter_mvvm_bloc
+package com.example.search_ahead
 
 import io.flutter.embedding.android.FlutterActivity
 

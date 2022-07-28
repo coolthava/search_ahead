@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.base_flutter_mvvm_bloc">
+    package="com.example.search_ahead">
    <application
-        android:label="base_flutter_mvvm_bloc"
+        android:label="search_ahead"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

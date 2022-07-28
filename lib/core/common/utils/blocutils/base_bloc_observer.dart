@@ -1,4 +1,4 @@
-import 'package:base_flutter_mvvm_bloc/core/common/utils/logger/i_logger.dart';
+import 'package:search_ahead/core/common/utils/logger/i_logger.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class BaseAppBlocObserver extends BlocObserver {

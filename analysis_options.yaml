@@ -9,6 +9,23 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  exclude:
+    - lib/core/common/error/**.dart
+    - lib/**/*.g.dart
+    - lib/generated/**.dart
+    - test/presentation/shared_mocks.mocks.dart
+    - test/presentation/base_test.dart
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    # treat missing required parameters as a warning (not a hint)
+    missing_required_param: warning
+    # treat missing returns as a warning (not a hint)
+    missing_return: warning
+#    omit_local_variable_types: ignore
+
 linter:
   # The lint rules applied to this project can be customized in the
   # section below to disable rules from the `package:flutter_lints/flutter.yaml`
