@@ -221,6 +221,10 @@ class _MyHomePageState extends State<MyHomePage> {
           return _buildEmptyScreen();
         }
 
+        if (state is ErrorHomeState) {
+          return _buildErrorScreen();
+        }
+
         return const SizedBox.shrink();
       },
     );
@@ -366,6 +370,31 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           Text(
             'Please ensure words are spelled correctly',
+            style: black16w400.copyWith(height: 1.375),
+          )
+        ],
+      ),
+    );
+  }
+
+  Widget _buildErrorScreen() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const SizedBox(
+            height: 50,
+          ),
+          Text(
+            'An unexpected error occurred',
+            style: black24w800,
+          ),
+          const SizedBox(
+            height: 16,
+          ),
+          Text(
+            'Please try again later',
             style: black16w400.copyWith(height: 1.375),
           )
         ],

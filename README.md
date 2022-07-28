@@ -4,13 +4,28 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1) Please run [flutter pub get] in root directory, followed by [flutter pub run build_runner build --delete-conflicting-outputs]
 
-A few resources to get you started if this is your first Flutter project:
+2) Choose desired mobile emulator or macos and then click run.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# Descriptions
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features:
+
+    Home -> To allow user to search for events
+
+    Details -> To show users event details and favourite them
+
+All optional features completed. 
+
+
+
+Notes for some future improvements:
+
+1. Create pagination (either through backend, or handle to mechanism ) for eventList (currently getting 25 items only)
+2. Use caching for apis
+3. Add networkUtils to check internet connection before performing api call in repo
+4. More error checking in terms of empty models
+5. Create deeplink Handling
+6. Widget Testing
+

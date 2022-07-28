@@ -15,8 +15,14 @@ TextStyle get black16w700 => const TextStyle(
 TextStyle get black16w800 => const TextStyle(
     fontSize: 16, color: Colors.black, fontWeight: FontWeight.w800);
 
+TextStyle get black20w400 => const TextStyle(
+    fontSize: 20, color: Colors.black, fontWeight: FontWeight.w400);
+
 TextStyle get black20w800 => const TextStyle(
     fontSize: 20, color: Colors.black, fontWeight: FontWeight.w800);
+
+TextStyle get black24w700 => const TextStyle(
+    fontSize: 24, color: Colors.black, fontWeight: FontWeight.w700);
 
 TextStyle get black24w800 => const TextStyle(
     fontSize: 24, color: Colors.black, fontWeight: FontWeight.w800);
